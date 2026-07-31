@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Skylinelimo booking preview</title>
+  <desc id="desc">A luxury limousine booking platform preview with vehicle selection, route details, and reservation status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827" />
+      <stop offset=".5" stop-color="#4338ca" />
+      <stop offset="1" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="panel" x1="134" y1="88" x2="1066" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fafc" stop-opacity=".96" />
+      <stop offset="1" stop-color="#e0e7ff" stop-opacity=".88" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#020617" flood-opacity=".42" />
+    </filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)" />
+  <circle cx="980" cy="130" r="190" fill="#818cf8" opacity=".16" />
+  <circle cx="196" cy="620" r="220" fill="#38bdf8" opacity=".12" />
+  <path d="M90 554c170-82 312-118 506-103 172 13 318 67 514 10" stroke="#fff" stroke-width="2" opacity=".16" fill="none" />
+  <rect x="128" y="88" width="944" height="574" rx="34" fill="url(#panel)" filter="url(#shadow)" />
+  <rect x="128" y="88" width="944" height="80" rx="34" fill="#111827" />
+  <text x="178" y="137" fill="#eef2ff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Skylinelimo</text>
+  <rect x="812" y="108" width="196" height="38" rx="19" fill="#4f46e5" />
+  <text x="852" y="133" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Book Ride</text>
+  <g transform="translate(176 216)">
+    <text x="0" y="0" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900">Luxury Chauffeur Booking</text>
+    <text x="0" y="36" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16">Reserve limousines with route planning, vehicle choice, and trip confirmation.</text>
+    <rect x="0" y="86" width="836" height="248" rx="28" fill="#111827" />
+    <path d="M82 214c36-78 92-114 178-114h250c72 0 132 44 178 114h64c34 0 62 28 62 62v16H42v-16c0-34 28-62 62-62z" fill="#f8fafc" />
+    <path d="M256 128h238c44 0 84 28 118 78H158c28-48 58-78 98-78z" fill="#6366f1" opacity=".9" />
+    <rect x="306" y="146" width="120" height="46" rx="10" fill="#c7d2fe" />
+    <rect x="448" y="146" width="122" height="46" rx="10" fill="#c7d2fe" />
+    <circle cx="184" cy="294" r="44" fill="#020617" />
+    <circle cx="184" cy="294" r="18" fill="#94a3b8" />
+    <circle cx="646" cy="294" r="44" fill="#020617" />
+    <circle cx="646" cy="294" r="18" fill="#94a3b8" />
+    <path d="M94 365h720" stroke="#4f46e5" stroke-width="8" stroke-linecap="round" />
+    <rect x="36" y="386" width="224" height="108" rx="22" fill="#fff" stroke="#c7d2fe" />
+    <rect x="304" y="386" width="224" height="108" rx="22" fill="#fff" stroke="#c7d2fe" />
+    <rect x="572" y="386" width="224" height="108" rx="22" fill="#fff" stroke="#c7d2fe" />
+    <text x="62" y="428" fill="#4f46e5" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Pickup</text>
+    <text x="330" y="428" fill="#4f46e5" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Vehicle</text>
+    <text x="598" y="428" fill="#4f46e5" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Status</text>
+    <rect x="62" y="452" width="144" height="12" rx="6" fill="#94a3b8" />
+    <rect x="330" y="452" width="156" height="12" rx="6" fill="#94a3b8" />
+    <rect x="598" y="452" width="118" height="12" rx="6" fill="#94a3b8" />
+  </g>
+</svg>

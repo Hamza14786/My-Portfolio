@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Pavilion Financials dashboard preview</title>
+  <desc id="desc">A financial dashboard preview with portfolio charts, revenue cards, and investment analytics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172554" />
+      <stop offset=".5" stop-color="#0f766e" />
+      <stop offset="1" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="panel" x1="130" y1="88" x2="1070" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".96" />
+      <stop offset="1" stop-color="#ecfeff" stop-opacity=".9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#020617" flood-opacity=".38" />
+    </filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)" />
+  <circle cx="998" cy="118" r="180" fill="#67e8f9" opacity=".14" />
+  <circle cx="180" cy="648" r="230" fill="#22c55e" opacity=".12" />
+  <g opacity=".15" stroke="#fff">
+    <path d="M0 176h1200M0 352h1200M0 528h1200" />
+    <path d="M200 0v750M400 0v750M600 0v750M800 0v750M1000 0v750" />
+  </g>
+  <rect x="128" y="88" width="944" height="574" rx="34" fill="url(#panel)" filter="url(#shadow)" />
+  <rect x="128" y="88" width="944" height="80" rx="34" fill="#0f172a" />
+  <text x="178" y="137" fill="#ecfeff" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Pavilion Financials</text>
+  <rect x="812" y="108" width="196" height="38" rx="19" fill="#0d9488" />
+  <text x="852" y="133" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Portfolio</text>
+  <g transform="translate(178 212)">
+    <text x="0" y="0" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900">Financial Intelligence Dashboard</text>
+    <text x="0" y="36" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16">Track revenue, investments, invoices, and performance with clean analytics.</text>
+    <rect x="0" y="82" width="250" height="130" rx="22" fill="#f0fdfa" stroke="#99f6e4" />
+    <rect x="292" y="82" width="250" height="130" rx="22" fill="#eff6ff" stroke="#bfdbfe" />
+    <rect x="584" y="82" width="250" height="130" rx="22" fill="#f8fafc" stroke="#cbd5e1" />
+    <text x="24" y="124" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Revenue</text>
+    <text x="24" y="174" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">$84K</text>
+    <text x="316" y="124" fill="#2563eb" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Assets</text>
+    <text x="316" y="174" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">$1.2M</text>
+    <text x="608" y="124" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Growth</text>
+    <text x="608" y="174" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">18%</text>
+    <rect x="0" y="248" width="536" height="194" rx="24" fill="#fff" stroke="#ccfbf1" />
+    <polyline points="38,386 116,346 190,362 266,300 342,326 420,272 496,288" fill="none" stroke="#0d9488" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <g fill="#0d9488">
+      <circle cx="116" cy="346" r="10" />
+      <circle cx="266" cy="300" r="10" />
+      <circle cx="420" cy="272" r="10" />
+    </g>
+    <text x="32" y="294" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Performance</text>
+    <rect x="584" y="248" width="250" height="194" rx="24" fill="#0f172a" />
+    <text x="612" y="292" fill="#ecfeff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Allocation</text>
+    <circle cx="708" cy="360" r="58" fill="none" stroke="#134e4a" stroke-width="26" />
+    <path d="M708 302a58 58 0 0 1 50 88" fill="none" stroke="#2dd4bf" stroke-width="26" stroke-linecap="round" />
+    <path d="M758 390a58 58 0 0 1-92 18" fill="none" stroke="#60a5fa" stroke-width="26" stroke-linecap="round" />
+  </g>
+</svg>
