@@ -106,6 +106,19 @@
   border: 1px solid var(--color-border);
 }
 
+.mobile-menu-panel {
+  background-color: rgba(24, 25, 34, 0.96);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  border: 1px solid var(--color-border);
+  isolation: isolate;
+  transform: translateZ(0);
+}
+
+.light .mobile-menu-panel {
+  background-color: rgba(255, 255, 255, 0.96);
+}
+
 @utility text-gradient {
   background: linear-gradient(135deg, oklch(0.85 0.05 240), oklch(0.72 0.16 210));
   -webkit-background-clip: text;

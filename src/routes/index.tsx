@@ -344,7 +344,7 @@ function Portfolio() {
           {menuOpen && (
             <motion.div
               initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }}
-              className="glass mt-2 rounded-2xl p-2 md:hidden"
+              className="mobile-menu-panel mt-2 rounded-2xl p-2 shadow-[0_18px_50px_-20px_rgba(0,0,0,0.75)] md:hidden"
             >
               {NAV.map((n) => (
                 <button key={n.id} onClick={() => scrollTo(n.id)} className={cn("block w-full rounded-lg px-3 py-2 text-left text-sm", active === n.id ? "bg-white/5 text-foreground" : "text-muted-foreground")}>
