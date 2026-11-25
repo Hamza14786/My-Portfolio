@@ -14,7 +14,7 @@ import portrait from "@/assets/hamza-portrait.jpg";
 import infusionPakistanImage from "@/assets/infusions-preview.webp";
 import lawPortalImage from "@/assets/law-portal.png";
 import leasideDrivingImage from "@/assets/leaside-driving-preview.png";
-import motoraidPortalImage from "@/assets/motoraid-portal-preview.png";
+import salceyCampersImage from "@/assets/salcey-campers-preview.jpg";
 import motoraidWarrantyImage from "@/assets/motoraid-warranty-preview.png";
 import narrativeCmsImage from "@/assets/narrative-preview.png";
 import pavilionFinancialsImage from "@/assets/pavilion-financials-preview.png";
@@ -92,7 +92,7 @@ const NAV = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
-  { id: "experience", label: "Experience" },
+  { id: "experience", label: "Journey" },
   { id: "projects", label: "Projects" },
   { id: "services", label: "Services" },
   { id: "contact", label: "Contact" },
@@ -156,26 +156,14 @@ const SKILL_GROUPS = [
   ]},
 ];
 
-const EXPERIENCE = [
-  {
-    role: "Frontend Developer", company: "Freelance & Contract", period: "2024 — Present",
-    points: [
-      "Build responsive, accessible websites with React & Next.js",
-      "Convert Figma designs to pixel-perfect production code",
-      "Optimize performance to 90+ Lighthouse scores",
-      "Improve SEO, semantics and Core Web Vitals",
-      "Collaborate with international clients across time zones",
-    ],
-  },
-  {
-    role: "WordPress Developer", company: "Agency Projects", period: "2023 — 2024",
-    points: [
-      "Developed custom WordPress themes and landing pages",
-      "Customized WooCommerce stores for local businesses",
-      "Improved loading speed & mobile performance",
-      "Integrated payment gateways and third-party APIs",
-    ],
-  },
+const JOURNEY = [
+  { step: "01", title: "Web Development Foundations", description: "Started my development journey by learning HTML and CSS, focusing on website structure, styling, and layouts." },
+  { step: "02", title: "Modern CSS Frameworks", description: "Expanded my skills with Bootstrap and Tailwind CSS to build modern, responsive, and visually appealing interfaces." },
+  { step: "03", title: "WordPress Development", description: "Built responsive WordPress websites with Elementor, customized themes, integrated WooCommerce and plugins, and optimized website performance." },
+  { step: "04", title: "JavaScript Fundamentals", description: "Learned core JavaScript concepts to create interactive and dynamic web experiences." },
+  { step: "05", title: "Modern Frontend Development", description: "Progressed to React.js and Next.js for building scalable, component-based web applications." },
+  { step: "06", title: "Full-Stack Development (Current)", description: "Currently expanding my expertise in Node.js, PostgreSQL, REST APIs, backend development, and database integration." },
+  { step: "Ongoing", title: "AI-Assisted Development", description: "I leverage AI-powered development tools throughout my projects to accelerate development, solve complex problems, improve code quality, and build modern digital solutions while continuously strengthening my technical skills." },
 ];
 
 const PROJECTS = [
@@ -190,7 +178,7 @@ const PROJECTS = [
   { title: "Webenergies", tag: "Frontend", tags: ["Frontend"], desc: "IT services website covering digital solutions, service pages, business support, and lead capture flow.", tech: ["React.js", "Vite", "TailwindCSS", "React-Router"], gradient: "from-blue-500/30 to-violet-500/20", image: webenergiesImage, url: "https://webenergies.com/" },
   { title: "PTS Pakistan", tag: "Frontend", tags: ["Frontend"], desc: "Logistics services website for presenting transport solutions, service coverage, tracking support, and inquiries.", tech: ["React.js", "Vite", "TailwindCSS", "React-Router"], gradient: "from-orange-500/30 to-blue-500/20", image: ptsPakistanImage, url: "https://ptspakistan.com/" },
   { title: "Pearl Plastic", tag: "Frontend", tags: ["Frontend"], desc: "Frontend website for a plastic packaging manufacturer showcasing products, process, quality highlights, and quote inquiries.", tech: ["HTML", "CSS", "JS", "Bootstrap"], gradient: "from-yellow-500/30 to-blue-500/20", image: pearlPlasticImage, url: "#" },
-  { title: "MotorAid Portal", tag: "Web Apps", tags: ["Web Apps"], desc: "UK vehicle insurance and warranty claims portal for managing customer coverage, claim requests, and policy support.", tech: ["Javascript", "PHP", "TailwindCSS"], gradient: "from-blue-500/30 to-cyan-500/20", image: motoraidWarrantyImage, url: "http://portal.motoraidwarranty.co.uk/" },
+  { title: "Salcey Campers", tag: "Web Apps", tags: ["Web Apps"], desc: "A modern UK campervan dealership platform featuring dynamic vehicle listings, inventory management, an AI-powered chatbot, and seamless customer enquiries.", tech: ["React.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"], gradient: "from-blue-500/30 to-cyan-500/20", image: salceyCampersImage, url: "https://www.salceycampers.co.uk/" },
   { title: "Xplor Japan", tag: "WordPress", desc: "Japan private tours and travel booking website with destination pages, custom tour packages, and inquiry flow.", tech: ["WordPress", "Elementor", "Responsive Design", "Rant Math SEO", "Accelerator", "Up-draft Plus", "Site-kit"], gradient: "from-red-500/30 to-rose-500/20", image: xplorJapanImage, url: "https://xplorjapan.com/" },
   { title: "Wadi Al Ghaf", tag: "WordPress", desc: "Travel and transportation services website covering tourism, hospitality, limousine, and transfer solutions.", tech: ["WordPress", "Elementor", "Travel Website", "Rant Math SEO", "Accelerator", "Up-draft Plus", "Site-kit"], gradient: "from-emerald-500/30 to-amber-500/20", image: wadiAlGhafImage, url: "http://wadialghaf.com/" },
   { title: "Leaside Driving Academy", tag: "WordPress", desc: "Driving school website with course dates, packages, contact flow, and local training service pages.", tech: ["WordPress", "Elementor", "Booking Flow", "Rant Math SEO", "Accelerator", "Up-draft Plus", "Site-kit"], gradient: "from-sky-500/30 to-blue-500/20", image: leasideDrivingImage, url: "http://leasidedriving.com/" },
@@ -205,7 +193,7 @@ const SERVICES = [
   { icon: Code2, title: "Frontend Development", desc: "Modern, component-driven UIs with clean, maintainable code." },
   { icon: Rocket, title: "React Development", desc: "Complex SPAs and dashboards with state management." },
   { icon: Zap, title: "Next.js Development", desc: "SSR, SSG & full-stack apps with edge performance." },
-  { icon: Monitor, title: "Landing Pages", desc: "High-converting marketing sites that ship in days." },
+  { icon: Monitor, title: "Landing Pages", desc: "High-converting marketing sites built in days." },
   { icon: Search, title: "Website Optimization", desc: "Core Web Vitals, SEO and accessibility upgrades." },
   { icon: Globe, title: "WordPress Development", desc: "Custom themes, WooCommerce and headless setups." },
   { icon: Palette, title: "UI Implementation", desc: "Figma to pixel-perfect production code, delivered fast." },
@@ -213,7 +201,7 @@ const SERVICES = [
 ];
 
 const WHY = [
-  { icon: Sparkles, title: "Fast Learner", desc: "Ramp up on new stacks quickly and ship value early." },
+  { icon: Sparkles, title: "Fast Learner", desc: "Ramp up on new stacks quickly and deliver value early." },
   { icon: FileCode, title: "Clean Code", desc: "Readable, typed, and reviewable — built to scale." },
   { icon: Zap, title: "Performance Focused", desc: "Lighthouse 90+, sub-second interactions." },
   { icon: Smartphone, title: "Responsive Design", desc: "Mobile-first, works flawlessly on any screen." },
@@ -437,7 +425,7 @@ function Hero({ scrollTo }: { scrollTo: (id: string) => void }) {
             Hi, I'm <span className="text-brand-gradient">Hamza Malik</span>
             <br />
             <span className="text-muted-foreground text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-              <Typewriter words={["Frontend Developer", "Software Engineer", "React.js and Next.js Developer", "WordPress and CMS Developer"]} />
+              <Typewriter words={["Full Stack AI Engineer", "Frontend Developer", "Software Engineer", "React.js and Next.js Developer", "WordPress and CMS Developer"]} />
             </span>
           </motion.h1>
 
@@ -558,7 +546,7 @@ function Hero({ scrollTo }: { scrollTo: (id: string) => void }) {
                 <div className="grid h-8 w-8 place-items-center rounded-lg bg-accent/20 text-accent"><Sparkles className="h-4 w-4" /></div>
                 <div>
                   <div className="text-xs text-muted-foreground">Projects</div>
-                  <div className="text-sm font-semibold">50+ shipped</div>
+                  <div className="text-sm font-semibold">50+ completed</div>
                 </div>
               </div>
             </motion.div>
@@ -674,7 +662,7 @@ function SkillBar({ name, level }: { name: string; level: number }) {
 function Skills() {
   return (
     <Section id="skills">
-      <SectionHeader eyebrow="Skills" title="Tools I use to |ship great software|"
+      <SectionHeader eyebrow="Skills" title="Tools I use to |build great software|"
         description="A pragmatic stack for building fast, accessible and maintainable products." />
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         {SKILL_GROUPS.map((g, gi) => (
@@ -699,15 +687,15 @@ function Skills() {
   );
 }
 
-/* ---------- Experience ---------- */
+/* ---------- Development Journey ---------- */
 function Experience() {
   return (
     <Section id="experience">
-      <SectionHeader eyebrow="Experience" title="A track record of |shipping|" />
+      <SectionHeader eyebrow="Development Journey" title="My Journey as a Developer" />
       <div className="relative mx-auto max-w-3xl">
         <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-primary/50 via-accent/40 to-transparent md:left-1/2" />
-        {EXPERIENCE.map((e, i) => (
-          <motion.div key={e.role}
+        {JOURNEY.map((stage, i) => (
+          <motion.div key={stage.step}
             initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-60px" }}
             transition={{ duration: 0.6, delay: i * 0.1 }}
             className={cn("relative mb-10 pl-12 md:w-1/2 md:pl-0", i % 2 === 0 ? "md:pr-12 md:text-right md:ml-0" : "md:pl-12 md:ml-auto")}
@@ -716,12 +704,9 @@ function Experience() {
               "left-[10px] md:left-auto",
               i % 2 === 0 ? "md:-right-[6px]" : "md:-left-[6px]")} />
             <div className="glass card-hover rounded-2xl p-6">
-              <div className="text-xs text-accent">{e.period}</div>
-              <div className="mt-1 text-lg font-semibold">{e.role}</div>
-              <div className="text-sm text-muted-foreground">{e.company}</div>
-              <ul className={cn("mt-4 space-y-1.5 text-sm text-muted-foreground", i % 2 === 0 ? "md:text-right" : "")}>
-                {e.points.map((p) => <li key={p} className="leading-relaxed">— {p}</li>)}
-              </ul>
+              <div className="text-xs text-accent">{stage.step}</div>
+              <div className="mt-1 text-lg font-semibold">{stage.title}</div>
+              <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{stage.description}</p>
             </div>
           </motion.div>
         ))}
@@ -739,7 +724,7 @@ function Projects() {
   return (
     <Section id="projects">
       <SectionHeader eyebrow="Projects" title="Selected |work|"
-        description="A few products I've designed, engineered and shipped." />
+        description="A few products I've designed, built and launched." />
       <div className="mb-8 flex flex-wrap justify-center gap-2">
         {PROJECT_FILTERS.map((f) => (
           <button key={f} onClick={() => setFilter(f)}
@@ -840,7 +825,7 @@ function Projects() {
 function Services() {
   return (
     <Section id="services">
-      <SectionHeader eyebrow="Services" title="How I can |help you ship|" />
+      <SectionHeader eyebrow="Services" title="What I Can |Build for You|" />
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {SERVICES.map((s, i) => (
           <motion.div key={s.title}
